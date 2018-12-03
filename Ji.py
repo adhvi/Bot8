@@ -1,6 +1,6 @@
 
-import BONDS
-from BONDS import *
+import ADHVI
+from ADHVI import *
 from akad.ttypes import *
 from multiprocessing import Pool, Process
 from time import sleep
@@ -10,7 +10,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
-#ANTIJS_V2
+#ADHVITEAM [TANKS YOU]
 #cl = LineClient()
 cl = LineClient(authToken='EznXOMVQaaOCQARW2eId.jve7sn2hFBC7ElI3vkBupq.DmwCm0/mSjvlLfJxmBnhp0/ZnBSy/nmAbstNd5uGvpg=')
 cl.log("Auth Token : " + str(cl.authToken))
